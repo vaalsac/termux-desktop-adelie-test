@@ -8,7 +8,7 @@ pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth
 
 # Prepare termux-x11 session
 export XDG_RUNTIME_DIR=${TMPDIR}
-termux_googleplay.2025.018 :0 >/dev/null &
+termux googleplay.2025.018 :0 >/dev/null &
 
 # Wait a bit until termux-x11 gets started.
 sleep 3
